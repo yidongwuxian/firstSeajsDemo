@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ 内容：css样式重构以及一些公共类的定义
+ Author:li_xiaomeng
+ 作用域：(商城模板)所有页面
+ */
+html {_width: 100%;_height: 100%;_overflow-x: hidden;_overflow-y: auto;_overflow-x: hidden;}
+body {_height: 100%;font-size: 12px;color: #333;font-family:Arial,Verdana,Helvetica,sans-serif; background-color:#fff;}
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,input,button,textarea,th,td,p{margin: 0px;padding: 0px;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;}
+ul,ol {list-style-type: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+img {border: none;vertical-align: top;}
+table {border-collapse: collapse;border-spacing: 0;}
+.w980 {width: 980px;margin: 0px auto;}
+.w1200 {width: 1200px;margin: 0px auto;}
+.w1250{width:1250px;margin:0px auto;}
+.fl {float: left;}
+.fr {float: right;}
+.clr {height: 0px;display: block;clear: both;font-size:1px;}
+.clr10{height:10px;display:block;clear:both;font-size:1px;}
+.cf:before,.cf:after {content: "";display: table;}
+.cf:after {clear: both;}
+.cf {zoom: 1;}
+.pic,.g-tt,.g-pr{overflow:hidden;}
+.g-tt a{display:block;}
+h1.logo {width: 200px;height: 77px;overflow: hidden;}
+.mt10{margin-top:10px;}
+/*
+ * 防止ie6下背景图片闪动、重新加载
+ */
+body {zoom: expression(function(ele){ele.style.zoom="1";document.execCommand("BackgroundImageCache",false,true);}(this));}
+*:focus {outline: none;}

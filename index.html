@@ -1,0 +1,931 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" href="css/newBlack.css" type="text/css" />
+<link rel="stylesheet" href="css/shop-base.css" type="text/css" />
+<script type="text/javascript" src="sea/sea.js"></script>
+<script type="text/javascript">
+seajs.config({
+    base:'./js/',
+    alias : {
+        'jq' : 'jquery-1.8.3.min',
+        'jp' : 'slide-plugin2',
+        'jc' : 'slide-click',
+        'jt' : 'countdown-plugin',
+        'main' : 'main'
+    },
+    preload : ["jq","jp","jc","jt"]
+})
+
+seajs.use('main');
+
+seajs.use(['main','jp','jc','jt'],function(ex,ex1,ex2,ex3,ex4){
+    
+    $(function(){
+        $('#scrollBox').imgSlide({showBtns: true,style: 'style2',mode: 'fade',switchTime: 4500,onImgStop: false})
+      
+        $('#slide-tab').bk_slideClick()
+
+        $('.countDown').bk_countDown({
+          style: 'style7' 
+        })
+    })
+})    
+    
+
+</script>
+</head>
+<body>
+<div id="header"></div>
+<!--header end-->
+<div class="bcl">
+	<div class="scroll-bd repeatX">
+    	<div id="scrollBox" class="w980">
+        	<ul>
+            	<li><a href="/"><img src="images/pic980-350.jpg" /></a></li>
+                <li><a href="/"><img src="images/pic980-350.jpg" /></a></li>
+            </ul>
+        </div>
+    </div>
+	<!--scrollBox end-->
+	<div class="w980">
+    	<div class="leftarea">
+        	<div class="g-new">
+    		<ul id="newList">
+            	<li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤1</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤2</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤3</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤4</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤5</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤6</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/"><img src="images/pic2.jpg" /></a>
+                	<div class="hideBox">
+						<div class="g-tt">
+                        	<a href="/">韩都衣舍 圆领宽松蝙蝠袖图
+案T恤7</a>
+                        </div>
+                        <div class="g-pr">
+                        	<span>售价:<i>￥</i><b>1324</b></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="new-ico">
+            	<a href="/">
+                	<img src="images/pic-ex1.jpg" />
+                </a>
+            </div>
+            <div class="new-ico1">
+            	<a href="/">
+                	<img src="images/pic4.jpg" />
+                </a>
+            </div>
+            <div class="new-ico2">
+            	<a href="/">
+                	<img src="images/pic-ex2.jpg" />
+                </a>
+            </div>
+    	</div>
+        <div class="px-t1"></div>
+   		<!--g-new end-->
+       <div class="g-rank">
+        	<div class="tt">
+            	<span>热销排行</span>         
+            </div>
+            <div id="slide-tab">
+            	<div class="btn-l noRepeat"></div>
+                <div class="cn">
+                	<ul>
+                    	<li>
+                        	<div class="pic">
+                            	<div class="hdLabel-3"><span>001</span></div>
+                            	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                            </div>
+                            <div class="g-tt">
+                            	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                            </div>
+                            <div class="g-pr">
+                            	售价:<strong><span>￥</span>1234</strong>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="pic">
+                            	<div class="hdLabel-3"><span>002</span></div>
+                            	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                            </div>
+                            <div class="g-tt">
+                            	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                            </div>
+                            <div class="g-pr">
+                            	售价:<strong><span>￥</span>1234</strong>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="pic">
+                            	<div class="hdLabel-3"><span>003</span></div>
+                            	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                            </div>
+                            <div class="g-tt">
+                            	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                            </div>
+                            <div class="g-pr">
+                            	售价:<strong><span>￥</span>1234</strong>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="pic">
+                            	<div class="hdLabel-3"><span>004</span></div>
+                            	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                            </div>
+                            <div class="g-tt">
+                            	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                            </div>
+                            <div class="g-pr">
+                            	售价:<strong><span>￥</span>1234</strong>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="pic">
+                            	<div class="hdLabel-3"><span>005</span></div>
+                            	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                            </div>
+                            <div class="g-tt">
+                            	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                            </div>
+                            <div class="g-pr">
+                            	售价:<strong><span>￥</span>1234</strong>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn-r noRepeat"></div>
+            </div>
+        </div>
+        <div class="px-t1"></div>
+        <!--g-rank end-->
+        </div>
+        <!--left area end-->
+        <div class="rightarea">
+        	<div class="bulletin repeatX">
+            	<h3>商城咨讯</h3>
+                	<p>
+                    	<a href="/">NIKE新品，缤纷上架</a>
+                    	<a href="/">公羊鞋包旗舰店 特卖活动低至99元</a>
+                    	<a href="/">骆驼京东旗舰店 特卖活动5折封顶</a>
+                    	<a href="/">Mr.ing 潮流男鞋首选 低至99元</a>
+                    </p>
+            </div>
+            <div class="px-t2"></div>
+            <!--bulletin end-->
+            <div class="pan-buy">
+            	<div class="tt">
+                	<h3>限时抢购</h3>
+                    <span></span>
+                </div>
+                <div class="cn">
+                	<div class="pic">
+                        <a href="/"><img src="images/pic221-180.png" /></a>
+                    </div>
+                    <div class="g-tt">
+                        <a href="/">团购！Adidas阿迪达斯 中性室内鞋</a>
+                    </div>
+                    <div class="g-pr">
+                        售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                    <div class="g-detail">
+                    	<span>116578</span>人已购买
+                    </div>
+                </div>
+                <!--countDown start-->
+                <div class="pan-bottom">
+                    <div goodstime="36002" class="countDown">
+                        <span class="countdown-text">剩余天数</span>
+                        <span class="countdown-d">0天</span>
+                        <span class="countdown-h">9小时</span>
+                        <span class="countdown-m">59分钟</span>
+                        <span class="countdown-s">44秒</span>
+                    </div>
+                    <a href="/">立即抢购</a>
+                </div>
+            </div>
+            <div class="px-t3"></div>
+            <!--pan-buy end-->
+             <!--h-brand start-->
+            <div class="h-brand">
+            	<div class="tt repeatX">
+                	<i class="noRepeat brand-ico"></i>
+                	<span>热销品牌</span>
+                    <a href="/" class="more">更多品牌</a>
+                </div>
+                <div class="cn">
+                	<ul>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                        <li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    	<li><a href="/"><img src="images/pic88-60.png" /></a></li>
+                    </ul>
+                </div>
+                <div class="px-t3"></div>
+            </div>
+            <!--h-brand end-->
+        </div>
+        <!--right area end-->
+    </div>
+    <!--w980 end-->
+<!--pic-ex1 start-->
+    <div class="pic980-70 w980">
+        <a href="/"><img src="images/pic980-70.jpg" /></a>
+        <div class="px-t4"></div>
+    </div>
+    <!--pic-ex1 end-->
+    <div class="g-bd">
+    	<div class="tt">
+        	<span>女装</span>
+            <i class="tt-ico1 noRepeat"></i>
+          	<p>
+            	<span>热销:</span>
+            	<a href="/">台湾热卖</a>
+                <a href="/">春夏新品</a>
+                <a href="/">MO&CO </a>
+                <a href="/">秋水伊人</a>
+                <a href="/">衬衫</a>
+				<a href="/">连衣裙</a>
+                <a href="/">雪纺裙</a>
+                <a href="/">针织衫</a>
+                <a href="/">打底</a>
+				<a href="/">T恤</a>
+             	<a href="/">打底</a>
+				<a href="/">T恤</a>
+            </p>
+            <span class="fr">
+            	<a href="/" class="more">更多&gt;&gt;</a>
+            </span>
+        </div>
+        <div class="cn">
+            <div class="pic728-227">
+           		<a href="/" ><img src="images/pic728-227.jpg" /></a>
+            </div>
+            <div class="pic226-113">
+           		<a href="/" ><img src="images/pic226-113.jpg" /></a>
+                <a href="/" ><img src="images/pic226-113.jpg" /></a>
+            </div>
+            <ul>
+            	<li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="px-t5"></div>
+    </div>
+    <!-- g-bd end-->
+    <div class="g-bd">
+    	 <div class="tt">
+        	<span>男装</span>
+            <i class="tt-ico2 noRepeat"></i>
+          	<p>
+            	<span>热销:</span>
+            	<a href="/">台湾热卖</a>
+                <a href="/">春夏新品</a>
+                <a href="/">MO&CO </a>
+                <a href="/">秋水伊人</a>
+                <a href="/">衬衫</a>
+				<a href="/">连衣裙</a>
+                <a href="/">雪纺裙</a>
+                <a href="/">针织衫</a>
+                <a href="/">打底</a>
+				<a href="/">T恤</a>
+             	<a href="/">打底</a>
+				<a href="/">T恤</a>
+            </p>
+            <span class="fr">
+            	<a href="/" class="more">更多&gt;&gt;</a>
+            </span>
+        </div>
+        <div class="cn">
+            <div class="pic598-227">
+           		<a href="/" ><img src="images/pic598-227.jpg" /></a>
+            </div>
+            <div class="pic356-227">
+           		<a href="/" ><img src="images/pic356-227.jpg" /></a>
+            </div>
+            <ul>
+            	<li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="px-t5"></div>
+    </div>
+    <!--g-bd end-->
+     <div class="g-bd">
+    	<div class="tt">
+        	<span>童装</span>
+            <i class="tt-ico3 noRepeat"></i>
+          	<p>
+            	<span>热销:</span>
+            	<a href="/">台湾热卖</a>
+                <a href="/">春夏新品</a>
+                <a href="/">MO&CO </a>
+                <a href="/">秋水伊人</a>
+                <a href="/">衬衫</a>
+				<a href="/">连衣裙</a>
+                <a href="/">雪纺裙</a>
+                <a href="/">针织衫</a>
+                <a href="/">打底</a>
+				<a href="/">T恤</a>
+             	<a href="/">打底</a>
+				<a href="/">T恤</a>
+            </p>
+            <span class="fr">
+            	<a href="/" class="more">更多&gt;&gt;</a>
+            </span>
+        </div>
+        <div class="cn">
+            <div class="pic435-227">
+           		<a href="/" ><img src="images/pic435-227.jpg" /></a>
+            </div>
+            <div class="pic326-227">
+           		<a href="/" ><img src="images/pic326-227.jpg" /></a>
+            </div>
+            <div class="pic192-227">
+           		<a href="/" ><img src="images/pic192-227.jpg" /></a>
+            </div>
+            <ul>
+            	<li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="px-t5"></div>
+    </div>
+    <!--g-bd end-->
+     <div class="g-bd">
+    	<div class="tt">
+        	<span>内衣</span>
+            <i class="tt-ico4 noRepeat"></i>
+          	<p>
+            	<span>热销:</span>
+            	<a href="/">台湾热卖</a>
+                <a href="/">春夏新品</a>
+                <a href="/">MO&CO </a>
+                <a href="/">秋水伊人</a>
+                <a href="/">衬衫</a>
+				<a href="/">连衣裙</a>
+                <a href="/">雪纺裙</a>
+                <a href="/">针织衫</a>
+                <a href="/">打底</a>
+				<a href="/">T恤</a>
+             	<a href="/">打底</a>
+				<a href="/">T恤</a>
+            </p>
+            <span class="fr">
+            	<a href="/" class="more">更多&gt;&gt;</a>
+            </span>
+        </div>
+        <div class="cn">
+            <div class="pic481-227">
+           		<a href="/" ><img src="images/pic481-227.jpg" /></a>
+            </div>
+            <div class="pic473-227">
+           		<a href="/" ><img src="images/pic473-227.jpg" /></a>
+            </div>
+            <ul>
+            	<li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="px-t5"></div>
+    </div>
+    <!--g-bd end-->
+    <div class="w980">
+    	<div class="g-bd g-bd1 fl">
+            <div class="tt">
+        	<span>鞋靴</span>
+            <i class="tt-ico5 noRepeat"></i>
+          	<p>
+            	<span>热销:</span>
+            	<a href="/">台湾热卖</a>
+                <a href="/">春夏新品</a>
+                <a href="/">MO&CO </a>
+                <a href="/">秋水伊人</a>
+                <a href="/">衬衫</a>
+				<a href="/">连衣裙</a>
+                <a href="/">雪纺裙</a>
+                <a href="/">针织衫</a>
+                <a href="/">打底</a>
+				<a href="/">T恤</a>
+             	<a href="/">打底</a>
+				<a href="/">T恤</a>
+            </p>
+            <span class="fr">
+            	<a href="/" class="more">更多&gt;&gt;</a>
+            </span>
+        </div>
+        <div class="cn">
+            <div class="pic494-227">
+           		<a href="/" ><img src="images/pic494-227.jpg" /></a>
+            </div>
+            <ul>
+            	<li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="px-t7"></div>
+    	</div>
+    	<!--g-bd end-->
+         <div class="g-bd g-bd2 g-bd3 fr">
+           <div class="tt">
+        	<span>运动品牌</span>
+            <i class="tt-ico6 noRepeat"></i>
+          	<p>
+            	<span>热销:</span>
+            	<a href="/">台湾热卖</a>
+                <a href="/">春夏新品</a>
+                <a href="/">MO&CO </a>
+                <a href="/">秋水伊人</a>
+                <a href="/">衬衫</a>
+				<a href="/">连衣裙</a>
+                <a href="/">雪纺裙</a>
+                <a href="/">针织衫</a>
+                <a href="/">打底</a>
+				<a href="/">T恤</a>
+             	<a href="/">打底</a>
+				<a href="/">T恤</a>
+            </p>
+            <span class="fr">
+            	<a href="/" class="more">更多&gt;&gt;</a>
+            </span>
+        </div>
+        <div class="cn">
+            <div class="pic421-227">
+           		<a href="/" ><img src="images/pic421-227.jpg" /></a>
+            </div>
+            <ul>
+            	<li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg"></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+                <li>
+                	<div class="pic">
+                    	<a href="/"><img src="images/pic138-150.jpg" /></a>
+                    </div>
+                    <div class="g-tt">
+                    	<a href="/">韩都衣舍 圆领宽松蝙蝠袖
+图案T恤</a>
+                    </div>
+                    <div class="g-pr">
+                    	售价:<strong><span>￥</span>1234</strong>
+                    </div>
+                </li>
+            </ul>
+            <dl>
+            	<dt class="repeatX">运动品牌</dt>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+                <dd>
+                	<a href="/"><img src="images/pic91-59.png" /></a>
+                </dd>
+            </dl>
+        </div>
+        <div class="px-t8"></div>
+        </div>
+    	<!--g-bd end-->
+    </div>
+    <!--w980 end--> 
+</div>
+<!--main end-->
+<!--footer start-->
+<!--footer end-->
+<!-- <script type="text/javascript" src="js/newBlack.js"></script> -->
+<!-- <script type="text/javascript" src="js/slide-plugin2.js"></script>
+<script type="text/javascript" src="js/slide-click.js"></script>
+<script type="text/javascript" src="js/countdown-plugin.js"></script> -->
+<script type="text/javascript">
+//$(function(){
+	// $('#scrollBox').imgSlide({showBtns: true,style: 'style2',mode: 'fade',switchTime: 4500,onImgStop: false});
+	// $('.countDown').bk_countDown({
+	// 	style: 'style7'	
+	// });
+	// $('#slide-tab').bk_slideClick();
+//});
+</script>
+</body>
+</html>
